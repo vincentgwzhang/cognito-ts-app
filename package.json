@@ -1,0 +1,26 @@
+{
+  "name": "cognito-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "registry": "ts-node registry.ts",
+    "login": "ts-node login.ts",
+    "access": "ts-node accessAPI.ts",
+    "fetch": "ts-node fetchs3.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-amplify/auth": "^5.1.8",
+    "@aws-sdk/client-cognito-identity": "^3.271.0",
+    "@aws-sdk/client-s3": "^3.271.0",
+    "aws-amplify": "^5.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
